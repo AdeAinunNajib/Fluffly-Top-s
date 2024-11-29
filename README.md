@@ -1,2 +1,2 @@
 # Fluffly-Top-s
-123
+tugas website pasg dpk telah selesai kami berterimakasih kepada guru guru yang telah memberikan tugas, developer bahasa HTML,CSS,JS dan developer figma,github,danvscode, kami juga sangat berterimakasih kepada chatgpt yang telah menemanin pembuatan website kami dari awal sampe akhir pembuatan tanpa bantuan chatgpt mungkin website kami tidak menjadi seperti ini dan saya bertrimaksih kepada tim yang ikut sertaa dalam pembuatan website nya terutama Rafi Rabanni Setyadi yang membantu saya dalam pembuatan menu menu, naya dan zelda yang telah membuatkan desain desain dan mencarikan gambar gambar untuk website.
