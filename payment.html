@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pembayaran</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="judul">Detail Pembayaran</h1>
+        <hr style="background-color:black; margin-left:50px; margin-right: 50px;height: 1px; ">
+        <div id="cart-items-container">
+          
+        <div id="cart-items"></div>
+        <div class="summary-item">
+            <span style="margin-left: 10px;">Ongkir</span>
+            <span class="price" style="margin-left: 58%;">Rp15,000</span>
+        </div> 
+        <div class="total-price" id="total-price"></div>
+    </div>
+    <hr style="margin: 10px;">
+<div class="service-method">
+    <h2>Service Metode</h2>
+    <label>
+        <input type="radio" name="service" value="delivery">
+        Delivery
+    </label>
+    <label>
+        <input type="radio" name="service" value="takeaway">
+        TakeAway
+    </label>
+</div>
+<hr>
+<div class="address">
+    <h2>Alamat Penerima</h2>
+    <p>Jl. DI Panjaitan No.128, Karangreja, Purwokerto Kidul, Kec. Purwokerto Sel., Kabupaten Banyumas, Jawa Tengah</p>
+</div>
+<hr>
+<div class="payment-method">
+    <h2>Metode Pembayaran</h2>
+    <label>
+        <input type="radio" name="payment" value="cash">
+        Cash
+    </label>
+    <label>
+        <input type="radio" name="payment" value="bca">
+        BCA Mobile
+    </label>
+    <label>
+        <input type="radio" name="payment" value="gopay">
+        Gopay
+    </label>
+    <label>
+        <input type="radio" name="payment" value="dana">
+        Dana
+    </label>
+</div>
+<button onclick="pay()">Lanjutkan Pembayaran</button>
+</div>
+    <script src="payment.js"></script>
+</body>
+</html>

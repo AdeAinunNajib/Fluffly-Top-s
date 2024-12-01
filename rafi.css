@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+} */
+
+.header {
+    background-color: #f8d7da;
+    padding: 10px 25vw;
+    text-align: center;
+    border-style: none;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h1 {
+    color: #E663B2;
+    font-size: 24px;
+}
+
+.logo .cupcakes {
+    color: #d9534f;
+}
+
+.chef-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; /* Jarak antar-item menu otomatis */
+    flex: 1;
+    gap: 50px;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: 1,4rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #E663B2;
+    border-bottom: 0,1rem solid #E663B2;
+    display: inline-block;
+    font-size: 1,3rem;
+    transition: color 0.3s ease;
+}
+
+section{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.wedding {
+    text-align: center;
+}
+
+.judul {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    display: flex;
+    color: #000;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 200%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card button {
+    font-size: 16px;
+    color: #e01818;
+    font-weight: bold;
+    border: none;
+}
+footer {
+    background-color: #f7c5c3;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.container div {
+    text-align: left;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 14px;
+    color: #333333;
+}
+
+.hours p, .location p, .social-media p {
+    margin-bottom: 5px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.powered-by {
+    background-color: #e9a8a5;
+    border-width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.text-overlay h1 {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-overlay p {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.gambar-aboutus{
+   margin-bottom: 30px;
+}
+
+.description-box {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #ffe5e5;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+    color: #000000;
+    font-size: 16px;
+}
+
+.reviewcups{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.rpelanggan{
+    display: flex;
+    background-color: #ffe5e5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    width: 100%;
+}
+
+.rpelanggan .ppkosong img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ffffff; 
+}
+
+.reviewpl{
+    display: flex; 
+    flex-direction: column; 
+    height: 100%;
+}
+
+.reviewpl h3{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1rem;
+}
+
+.reviewpl p{
+    margin: 10px 0 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #555;
+    line-height: 1.5; 
+    text-align: center;
+}
+
+/* .cart-summary {
+    position: fixed; 
+    margin-left: 25%;
+    display: flex;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9a8a5;
+    color: white;
+    padding: 20px;
+    width: 50%; 
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    z-index: 1000;
+} */
+
+#cart-summary {
+    display: none; /* Awalnya tersembunyi */
+    background-color: #e9a8a5;
+    position: fixed; 
+    margin-left: 25%;
+    bottom: 0;
+    color: white;
+    padding: 20px;
+    width: 50%; 
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#cart-summary.show {
+    display: flex; /* Muncul saat ada pesanan */
+    justify-content: space-between;
+    align-items: center;
+}

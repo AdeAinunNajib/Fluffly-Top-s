@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluffy Tops Cupcake</title>
+    <link rel="stylesheet" href="rafi.css">
+    <Script src="cart.js"></Script>
+</head>
+<body>  
+    <div class="all-conten">
+        <header class="header">
+            <div class="logo">
+                <h1>Fluffy Tops</h1>
+                <img src="logojadi.png" alt="Chef Hat Icon" class="chef-icon">
+                <h1>Cupcake's</h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="limitmenu.html" class="nav-link">Special paket</a>
+                <a href="aboutus.html" class="nav-link">About Us</a>
+            </nav>
+        </header>
+
+        <section>
+            <div class="wedding">
+                <h1 class="judul">WEDDING CUPCAKES</h1>
+                <hr style="border: 1.5px dashed #000;width: 50%;margin-bottom: 70px; margin-left: 25%;">
+                <div class="grid">
+                    <div class="card">
+                        <img src="foto/weding 1.png" alt="Paket A">
+                        <h2>PAKET A</h2>
+                        <button onclick="addToCart('Wedding 1', 185000)">Rp185,000</button>
+                    </div>
+                    <div class="card">
+                        <img src="foto/weding 2.png" alt="Paket B">
+                        <h2>PAKET B</h2>
+                       <button onclick="addToCart('Wedding 2', 260000)">Rp260,000</button>
+                    </div>
+                    <div class="card">
+                        <img src="foto/weding 3.png" alt="Paket C">
+                        <h2>PAKET C</h2>
+                        <button onclick="addToCart('Wedding 3', 350000)">Rp185,000</button>
+                    </div>
+                    <div class="card">
+                        <img src="foto/weding 4.png" alt="Paket D">
+                        <h2>PAKET D</h2>
+                        <button onclick="addToCart('Wedding 4', 470000)">Rp470,000</button>
+                    </div>
+                </div>
+            </div>
+            <div class="wedding">
+                <h1 class="judul">BIRTHDAY CUPCAKES</h1>
+                <hr style="border: 1.5px dashed #000;width: 50%;margin-bottom: 70px; margin-left: 25%;">
+                <div class="grid">
+                    <div class="card">
+                        <img src="foto/bd1.png" alt="Paket A">
+                        <h2>PAKET A</h2>
+                        <button onclick="addToCart('BirthDay 1', 155000)">Rp155,000</button>
+                    </div>
+                    <div class="card">
+                        <img src="foto/bd2.png" alt="Paket B">
+                        <h2>PAKET B</h2>
+                        <button onclick="addToCart('BirthDay 2', 200000)">Rp200,000</button>
+                    </div>
+                    <div class="card">
+                        <img src="foto/bd3.png" alt="Paket C">
+                        <h2>PAKET C</h2>
+                         <button onclick="addToCart('BirthDay 3', 300000)">Rp300,000</button>
+                    </div>
+                    <div class="card">
+                        <img src="foto/bd4.png" alt="Paket D">
+                        <h2>PAKET D</h2>
+                        <button onclick="addToCart('BirthDay 4', 480000)">Rp480,000</button>
+                    </div>
+                </div>
+            </div>
+  <div id="cart-summary" class="cart-summary" onclick="goToPaymentPage()">
+    <span id="cart-count">0 Pesanan</span> 
+    <span id="cart-total">Rp0</span>
+</div>
+        
+        </section>
+        
+        <footer>
+                <div class="container">
+                    <div class="location">
+                        <h3>LOCATION</h3>
+                        <p>H732+X2F, Jl. Hos. Notosuwiryo</p>
+                        <p>No.41, Tasari, Teluk, Kec.</p>
+                        <p>Purwokerto Sel., Kabupaten</p>
+                        <p>Banyumas, Jawa Tengah 53145</p>
+                    </div>
+                    <div class="hours">
+                        <h3>HOURS</h3>
+                        <p>Senin - Jumat: 08:00 - 20:00</p>
+                        <p>Sabtu: 10:00 - 17:00</p>
+                        <p>Minggu: Tutup</p>
+                    </div>
+                    <div class="social-media">
+                        <h3>SOCIAL MEDIA</h3>
+                        <div class="icons">
+                            <a href="https://www.tiktok.com/@_fluffy.tops?_t=8rK5oHveMts&_r=1" target="_blank">
+                                <img src="tiktok.png" alt="tiktok" class="icon">
+                            </a> 
+                            <a href="https://www.instagram.com/_fluffy.tops/profilecard/?igsh=cDdwdHVwb2d2dWZx" target="_blank">
+                                <img src="instagram.png" alt="instagram" class="icon">
+                            </a> 
+                            <a href="https://wa.me/+6285726331579" target="_blank">
+                                <img src="whatsap.png" alt="whatsap" class="icon">
+                            </a>
+
+                                                       
+                        </div>
+                        <!-- <h3>Contact Us</h3>
+                        <p>cupcakefluffytops@gmail.</p> -->
+                    </div>
+                </div>
+                <div class="powered-by">
+                    powered by: X PPLG 3 GROUP 6
+                </div>
+        </footer>
+    </div>
+</body>
+</html>
